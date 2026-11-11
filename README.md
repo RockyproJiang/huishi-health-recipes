@@ -49,8 +49,7 @@ huishi-health-recipes/
 ├── data/                   # 内置食谱知识库（breakfast / lunch / dinner / health_recipes）
 ├── templates/index.html    # 单页前端
 ├── static/                 # css / js / images / uploads
-├── deploy/                 # Linux 部署脚本与 systemd / nginx 配置
-└── 软著申请材料/             # 计算机软件著作权登记材料（两套）
+└── deploy/                 # Linux 部署脚本与 systemd / nginx 配置
 ```
 
 ## 快速开始
