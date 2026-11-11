@@ -1,0 +1,28 @@
+[Unit]
+Description=HuiShi TuPu (慧食图谱) Flask app
+After=network.target mysql.service
+Wants=mysql.service
+
+[Service]
+Type=simple
+# 由 deploy.sh 替换成实际用户（默认是 sudo 的发起者，例如 ubuntu）
+User=huishi
+Group=huishi
+# 由 deploy.sh 替换成实际项目路径
+WorkingDirectory=/opt/huishi
+
+EnvironmentFile=/opt/huishi/.env
+
+ExecStart=/opt/huishi/.venv/bin/gunicorn -c /opt/huishi/gunicorn.conf.py wsgi:app
+
+Restart=always
+RestartSec=3
+
+StandardOutput=journal
+StandardError=journal
+
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

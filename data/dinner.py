@@ -1,0 +1,221 @@
+DINNER_FOODS = [
+    {"name":"清蒸鲈鱼+杂粮饭","calories":610,"protein":85.8,"carbs":105.8,"price":30.7,"category":"海鲜类",
+     "intro":"清蒸鲈鱼是粤菜经典做法，最大程度保留鱼肉的鲜嫩和营养，搭配三色藜麦杂粮饭，高蛋白低脂肪，是减脂期晚餐的绝佳之选。",
+     "taste":"鱼肉洁白如雪入口即化，姜葱的清香渗透每一丝鱼肉，蒸鱼豉油的咸鲜恰到好处，杂粮饭颗粒分明嚼劲十足。",
+     "steps":[
+         {"step":1,"detail":"鲈鱼去鳞去内脏洗净，两面各划三刀，塞入姜片","time":"5分钟","temp":"-"},
+         {"step":2,"detail":"杂粮米（三色藜麦+大米）淘洗后电饭煲煮熟","time":"35分钟","temp":"-"},
+         {"step":3,"detail":"水开后鱼盘入锅，大火蒸8分钟","time":"8分钟","temp":"大火"},
+         {"step":4,"detail":"倒掉盘中汤汁，铺上葱丝，淋热油和蒸鱼豉油即可","time":"2分钟","temp":"热油"}
+     ],
+     "ingredients":[{"name":"鲈鱼","price":25.0,"quantity":"500g"},{"name":"杂粮（三色藜麦+大米）","price":5.5,"quantity":"150g"},{"name":"姜丝","price":0.2,"quantity":"10g"}],"img":"dinner.png"},
+     
+    {"name":"番茄龙利鱼汤+全麦馒头","calories":520,"protein":52.9,"carbs":57.7,"price":30.2,"category":"汤品",
+     "intro":"番茄龙利鱼汤是一道酸甜开胃的低卡汤品，龙利鱼肉质细腻无刺，番茄富含番茄红素抗氧化，搭配全麦馒头增加饱腹感。",
+     "taste":"番茄汤底酸甜浓郁，鱼肉嫩滑如豆腐入口即化，金针菇爽脆增加层次，全麦馒头麦香浓郁越嚼越香。",
+     "steps":[
+         {"step":1,"detail":"龙利鱼柳切块，加少许盐和料酒腌制10分钟","time":"10分钟","temp":"-"},
+         {"step":2,"detail":"番茄顶部划十字沸水烫30秒去皮，切小丁","time":"3分钟","temp":"沸水"},
+         {"step":3,"detail":"热油中火炒番茄丁至出汁，加800ml水烧开","time":"5分钟","temp":"中火"},
+         {"step":4,"detail":"放入鱼块和金针菇煮3分钟至鱼肉变白，加盐调味","time":"3分钟","temp":"中火"}
+     ],
+     "ingredients":[{"name":"龙利鱼柳","price":22.0,"quantity":"300g"},{"name":"番茄","price":4.0,"quantity":"2个"},{"name":"金针菇","price":1.2,"quantity":"50g"},{"name":"全麦馒头","price":3.0,"quantity":"2个"}],"img":"dinner.png"},
+     
+    {"name":"蒜蓉粉丝蒸扇贝+小米粥","calories":480,"protein":18.0,"carbs":84.5,"price":21.8,"category":"海鲜类",
+     "intro":"蒜蓉粉丝蒸扇贝是宴客级家常菜，扇贝鲜甜搭配蒜蓉的浓香和吸满汤汁的粉丝，小米粥养胃安神，晚餐轻盈不负担。",
+     "taste":"扇贝肉鲜甜弹嫩，蒜蓉经油炸后金黄酥香，粉丝吸饱海鲜汤汁滑溜入味，小米粥绵密顺滑有淡淡甜味。",
+     "steps":[
+         {"step":1,"detail":"扇贝清洗干净，粉丝温水泡软剪段","time":"10分钟","temp":"温水"},
+         {"step":2,"detail":"蒜末用油炸至金黄制成金银蒜，加生抽蚝油调汁","time":"3分钟","temp":"中火"},
+         {"step":3,"detail":"扇贝壳上铺粉丝，放扇贝肉，浇蒜蓉汁","time":"3分钟","temp":"-"},
+         {"step":4,"detail":"水开上锅大火蒸6分钟，出锅撒葱花淋热油","time":"6分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"扇贝","price":18.0,"quantity":"6只"},{"name":"粉丝","price":1.5,"quantity":"50g"},{"name":"蒜末","price":0.5,"quantity":"10g"},{"name":"小米","price":1.8,"quantity":"50g"}],"img":"dinner.png"},
+     
+    {"name":"彩椒炒鸡丁+紫米饭","calories":550,"protein":71.5,"carbs":81.0,"price":21.7,"category":"肉类",
+     "intro":"彩椒炒鸡丁色彩缤纷高蛋白低脂，鸡胸肉搭配红黄彩椒富含维生素C，紫米饭含花青素抗氧化，健身爱好者晚餐首选。",
+     "taste":"鸡丁嫩滑不柴，彩椒清甜脆爽多汁，黑胡椒的微微辛辣提升风味，紫米饭软糯带独特清香。",
+     "steps":[
+         {"step":1,"detail":"鸡胸肉切2cm丁，加生抽、料酒、淀粉腌制15分钟","time":"15分钟","temp":"-"},
+         {"step":2,"detail":"红黄彩椒去籽切菱形块，紫米提前浸泡30分钟煮熟","time":"35分钟","temp":"-"},
+         {"step":3,"detail":"热油中火滑炒鸡丁至变白盛出","time":"2分钟","temp":"中火"},
+         {"step":4,"detail":"同锅大火炒彩椒30秒，倒回鸡丁加蚝油黑胡椒翻炒均匀","time":"1分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"鸡胸肉","price":13.5,"quantity":"250g"},{"name":"红黄彩椒","price":4.0,"quantity":"各半个"},{"name":"紫米","price":4.2,"quantity":"100g"}],"img":"dinner.png"},
+     
+    {"name":"白灼虾+蚝油生菜+玉米段","calories":500,"protein":51.2,"carbs":43.8,"price":34.9,"category":"海鲜类",
+     "intro":"白灼虾是粤菜经典，白灼法最大程度锁住虾的鲜甜，搭配蚝油生菜和甜玉米，高蛋白低碳水，是控糖人群的理想晚餐。",
+     "taste":"虾肉弹牙鲜甜自带海洋气息，蘸姜葱酱油更提鲜，生菜清脆裹满蚝油咸香，玉米粒粒饱满甜糯。",
+     "steps":[
+         {"step":1,"detail":"鲜虾剪去虾须挑虾线洗净，姜切片葱切段","time":"5分钟","temp":"-"},
+         {"step":2,"detail":"锅中加水、姜片、葱段、料酒烧开","time":"3分钟","temp":"大火"},
+         {"step":3,"detail":"放入虾煮2分钟至变红卷曲捞出过冰水（更弹牙）","time":"2分钟","temp":"大火"},
+         {"step":4,"detail":"生菜沸水焯30秒捞出，淋蚝油蒜末；玉米蒸15分钟","time":"15分钟","temp":"沸水→中火"}
+     ],
+     "ingredients":[{"name":"鲜虾","price":28.0,"quantity":"300g"},{"name":"生菜","price":2.8,"quantity":"200g"},{"name":"甜玉米","price":3.5,"quantity":"1根"},{"name":"蚝油","price":0.6,"quantity":"10g"}],"img":"dinner.png"},
+     
+    {"name":"肉末茄子煲+红薯饭","calories":590,"protein":29.5,"carbs":112.0,"price":15.5,"category":"肉类",
+     "intro":"肉末茄子煲是下饭神器，茄子软烂吸满肉汁，砂锅煲制锁住香气，红薯饭增加膳食纤维和天然甜味，经济实惠的家常美味。",
+     "taste":"茄子绵软如丝绒吸满酱汁，肉末酥香咸鲜微辣，红薯饭自带甘甜软糯，每一口都是满足感。",
+     "steps":[
+         {"step":1,"detail":"茄子切滚刀块撒盐腌10分钟挤去水分，红薯去皮切丁与大米同煮","time":"35分钟","temp":"-"},
+         {"step":2,"detail":"热油中火煸炒茄子至表面微焦盛出","time":"5分钟","temp":"中火"},
+         {"step":3,"detail":"同锅炒香蒜末和猪肉末至变色，加豆瓣酱炒出红油","time":"3分钟","temp":"中火"},
+         {"step":4,"detail":"茄子回锅，加生抽、蚝油和少许水，转入砂锅小火煲5分钟，撒葱花","time":"5分钟","temp":"小火"}
+     ],
+     "ingredients":[{"name":"茄子","price":3.0,"quantity":"300g"},{"name":"猪肉末","price":9.6,"quantity":"120g"},{"name":"红薯","price":2.0,"quantity":"100g"},{"name":"大米","price":0.9,"quantity":"100g"}],"img":"dinner.png"},
+     
+    {"name":"菌菇豆腐汤+蒸南瓜","calories":380,"protein":20.6,"carbs":27.7,"price":13.2,"category":"汤品",
+     "intro":"菌菇豆腐汤清淡鲜美低热量，白玉菇含丰富真菌多糖增强免疫力，嫩豆腐优质植物蛋白，搭配蒸贝贝南瓜，是轻断食日晚餐的完美选择。",
+     "taste":"汤色清澈鲜美回甘，豆腐嫩滑入口即溶，菌菇弹牙带来自然鲜味，南瓜粉糯香甜似板栗。",
+     "steps":[
+         {"step":1,"detail":"白玉菇去根洗净，嫩豆腐切2cm块焯水1分钟","time":"3分钟","temp":"沸水"},
+         {"step":2,"detail":"锅中加水600ml烧开，放入白玉菇煮3分钟","time":"3分钟","temp":"大火"},
+         {"step":3,"detail":"轻轻放入豆腐块，鸡蛋打散淋入成蛋花","time":"2分钟","temp":"中火"},
+         {"step":4,"detail":"加盐和少许白胡椒粉调味，勾薄芡淋香油；贝贝南瓜切块蒸15分钟","time":"15分钟","temp":"中火→大火"}
+     ],
+     "ingredients":[{"name":"白玉菇","price":3.5,"quantity":"80g"},{"name":"嫩豆腐","price":2.5,"quantity":"200g"},{"name":"鸡蛋","price":1.2,"quantity":"1个"},{"name":"贝贝南瓜","price":6.0,"quantity":"半个"}],"img":"dinner.png"},
+     
+    {"name":"干煸四季豆+烤鸡翅+杂粮饭","calories":660,"protein":39.3,"carbs":123.5,"price":20.5,"category":"肉类",
+     "intro":"干煸四季豆是川菜经典干煸技法，四季豆焦香微皱口感独特，搭配蜂蜜烤鸡翅和杂粮饭，蛋白质和碳水均衡，适合运动后的补充餐。",
+     "taste":"四季豆表皮焦皱内里脆嫩，干辣椒和花椒的麻辣干香，鸡翅外皮微焦蜜甜肉汁充盈，杂粮饭颗粒分明。",
+     "steps":[
+         {"step":1,"detail":"四季豆去筋掰段沥干水分，鸡翅中划两刀加生抽蜂蜜腌制20分钟","time":"20分钟","temp":"-"},
+         {"step":2,"detail":"烤箱200°C预热，鸡翅烤20分钟至表面金黄（中途翻面刷蜂蜜）","time":"20分钟","temp":"200°C"},
+         {"step":3,"detail":"锅中多油大火煸炒四季豆至表皮起皱呈虎皮色盛出","time":"5分钟","temp":"大火"},
+         {"step":4,"detail":"留底油炒香干辣椒花椒姜蒜末，倒回四季豆加盐翻炒均匀","time":"2分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"四季豆","price":3.0,"quantity":"200g"},{"name":"鸡翅中","price":12.0,"quantity":"4个"},{"name":"姜蒜","price":0.5,"quantity":"适量"},{"name":"杂粮","price":5.0,"quantity":"150g"}],"img":"dinner.png"},
+     
+    {"name":"芹菜香干炒肉丝+紫薯饭","calories":540,"protein":45.8,"carbs":106.5,"price":20.4,"category":"肉类",
+     "intro":"芹菜香干炒肉丝是经典家常小炒，芹菜富含膳食纤维降压降脂，香干提供植物蛋白，紫薯饭低GI增色添香，营养全面。",
+     "taste":"肉丝嫩滑入味，香干嚼劲十足吸满酱汁，芹菜清脆爽口带独特清香，紫薯饭色泽诱人自带甘甜。",
+     "steps":[
+         {"step":1,"detail":"猪里脊切丝加料酒、生抽、淀粉腌制；香干切条；芹菜切段","time":"12分钟","temp":"-"},
+         {"step":2,"detail":"紫薯去皮切丁与大米同煮","time":"35分钟","temp":"-"},
+         {"step":3,"detail":"热油大火滑炒肉丝至变白盛出","time":"1分钟","temp":"大火"},
+         {"step":4,"detail":"同锅炒香干至微焦，加芹菜翻炒1分钟，倒回肉丝加生抽盐调味","time":"3分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"猪里脊肉","price":12.0,"quantity":"100g"},{"name":"香干","price":2.5,"quantity":"100g"},{"name":"芹菜","price":2.0,"quantity":"150g"},{"name":"紫薯","price":3.0,"quantity":"100g"},{"name":"大米","price":0.9,"quantity":"100g"}],"img":"dinner.png"},
+     
+    {"name":"清炒时蔬+红烧带鱼+小米饭","calories":620,"protein":49.8,"carbs":90.4,"price":28.7,"category":"海鲜类",
+     "intro":"红烧带鱼是经典本帮菜，带鱼富含不饱和脂肪酸和DHA健脑益智，搭配清炒时蔬补充维生素，小米饭养胃安神。",
+     "taste":"带鱼段红烧后酱色红亮，鱼肉紧实入味咸中带甜，时蔬清脆解腻，小米饭软糯有嚼劲。",
+     "steps":[
+         {"step":1,"detail":"带鱼段去内脏洗净沥干，两面蘸薄薄一层淀粉","time":"5分钟","temp":"-"},
+         {"step":2,"detail":"热油中火煎带鱼至两面金黄盛出","time":"6分钟","temp":"中火"},
+         {"step":3,"detail":"同锅炒香姜蒜，加水、生抽、老抽、糖烧开，放入带鱼小火焖8分钟收汁","time":"10分钟","temp":"小火"},
+         {"step":4,"detail":"小油菜沸水焯1分钟捞出加蚝油拌匀；小米饭煮熟","time":"30分钟","temp":"-"}
+     ],
+     "ingredients":[{"name":"带鱼段","price":22.0,"quantity":"250g"},{"name":"小油菜","price":2.0,"quantity":"200g"},{"name":"小米","price":4.2,"quantity":"120g"},{"name":"生抽料酒","price":0.5,"quantity":"适量"}],"img":"dinner.png"},
+     
+    {"name":"冬瓜薏米排骨汤+馒头","calories":610,"protein":42.5,"carbs":72.5,"price":41.0,"category":"汤品",
+     "intro":"冬瓜薏米排骨汤是广式经典祛湿汤，薏米健脾祛湿利水消肿，冬瓜清热解暑，排骨提供胶原蛋白，适合湿气重或夏季晚餐。",
+     "taste":"汤色奶白浓郁鲜甜，排骨炖至脱骨软烂，冬瓜透明入口即化，薏米Q弹增加口感，暖胃舒心。",
+     "steps":[
+         {"step":1,"detail":"排骨冷水下锅加姜片料酒焯水去浮沫，捞出洗净","time":"8分钟","temp":"大火"},
+         {"step":2,"detail":"薏米提前浸泡1小时，冬瓜去皮切大块","time":"1小时","temp":"冷水"},
+         {"step":3,"detail":"排骨和薏米加1200ml水大火烧开转小火炖1小时","time":"1小时","temp":"小火"},
+         {"step":4,"detail":"加入冬瓜块再炖20分钟至冬瓜透明，加盐调味","time":"20分钟","temp":"小火"}
+     ],
+     "ingredients":[{"name":"排骨","price":35.0,"quantity":"300g"},{"name":"冬瓜","price":2.0,"quantity":"200g"},{"name":"薏米","price":1.5,"quantity":"30g"},{"name":"馒头","price":2.5,"quantity":"2个"}],"img":"dinner.png"},
+     
+    {"name":"蒜香西葫芦+煎巴沙鱼+红薯","calories":470,"protein":30.7,"carbs":36.2,"price":17.3,"category":"海鲜类",
+     "intro":"蒜香西葫芦搭配煎巴沙鱼和蒸红薯，一餐三味低碳水高蛋白，巴沙鱼无刺适合老人小孩，红薯补充复合碳水和膳食纤维。",
+     "taste":"巴沙鱼外焦里嫩蒜香扑鼻，西葫芦片清脆多汁，红薯粉糯香甜如蜜，整体清爽不油腻。",
+     "steps":[
+         {"step":1,"detail":"巴沙鱼柳用厨房纸吸干，两面撒盐黑胡椒腌制5分钟","time":"5分钟","temp":"-"},
+         {"step":2,"detail":"平底锅中火倒油，鱼柳每面煎3-4分钟至金黄","time":"7分钟","temp":"中火"},
+         {"step":3,"detail":"西葫芦切片，热油爆香蒜末，加入西葫芦大火快炒1分钟加盐","time":"2分钟","temp":"大火"},
+         {"step":4,"detail":"红薯洗净蒸25分钟至筷子能轻松穿透","time":"25分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"西葫芦","price":2.0,"quantity":"200g"},{"name":"巴沙鱼柳","price":12.0,"quantity":"200g"},{"name":"红薯","price":3.0,"quantity":"150g"},{"name":"蒜末","price":0.3,"quantity":"适量"}],"img":"dinner.png"},
+     
+    {"name":"地三鲜（土豆茄子青椒）+米饭","calories":540,"protein":16.5,"carbs":157.0,"price":6.5,"category":"素食",
+     "intro":"地三鲜是东北名菜，土豆茄子青椒三样大地蔬菜的结合，虽为素菜但经油炸后香气浓郁，成本极低却滋味十足，是经典的素菜下饭王。",
+     "taste":"土豆外焦里糯，茄子软烂吸汁，青椒清脆解腻，酱汁咸鲜微甜裹满每一块食材，米饭绝配。",
+     "steps":[
+         {"step":1,"detail":"土豆茄子去皮切滚刀块，青椒掰块，调碗汁（生抽+老抽+糖+淀粉+水）","time":"8分钟","temp":"-"},
+         {"step":2,"detail":"锅中多油大火炸土豆至金黄捞出，茄子裹少许淀粉炸至表面微焦","time":"5分钟","temp":"大火(180°C油温)"},
+         {"step":3,"detail":"留底油炒香蒜末，倒入碗汁煮至浓稠","time":"1分钟","temp":"中火"},
+         {"step":4,"detail":"倒入所有炸好的食材和青椒，大火快速翻炒均匀挂汁即可","time":"1分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"土豆","price":1.8,"quantity":"150g"},{"name":"茄子","price":2.0,"quantity":"200g"},{"name":"青椒","price":1.5,"quantity":"1个"},{"name":"大米","price":1.2,"quantity":"150g"}],"img":"dinner.png"},
+     
+    {"name":"腐竹烧木耳+荷包蛋+红米饭","calories":520,"protein":38.8,"carbs":105.0,"price":11.2,"category":"素食",
+     "intro":"腐竹烧木耳是经典素菜，腐竹是豆浆的精华富含植物蛋白和钙，木耳活血化瘀清肠胃，搭配荷包蛋补充动物蛋白，红米饭富含铁质。",
+     "taste":"腐竹软韧吸满酱汁豆香浓郁，木耳脆爽弹牙，荷包蛋边缘焦脆蛋黄流心，红米饭有独特坚果香。",
+     "steps":[
+         {"step":1,"detail":"腐竹和木耳分别用温水泡发1小时，腐竹切段","time":"1小时","temp":"温水"},
+         {"step":2,"detail":"红米提前浸泡30分钟煮熟","time":"35分钟","temp":"-"},
+         {"step":3,"detail":"热油中火煎鸡蛋至蛋白凝固边缘微焦，盛出","time":"3分钟","temp":"中火"},
+         {"step":4,"detail":"同锅炒香蒜末，加腐竹木耳翻炒，加生抽蚝油和少许水焖3分钟，装盘放荷包蛋","time":"5分钟","temp":"中火"}
+     ],
+     "ingredients":[{"name":"干腐竹","price":2.8,"quantity":"40g"},{"name":"干木耳","price":1.5,"quantity":"10g"},{"name":"鸡蛋","price":2.4,"quantity":"2个"},{"name":"红米","price":4.5,"quantity":"120g"}],"img":"dinner.png"},
+     
+    {"name":"酸辣藕丁+卤牛肉+杂粮粥","calories":500,"protein":27.8,"carbs":76.7,"price":17.4,"category":"肉类",
+     "intro":"酸辣藕丁是湖北名菜，莲藕清脆富含维生素C和膳食纤维，酸辣开胃，搭配卤牛肉补充优质蛋白，杂粮粥易消化养胃。",
+     "taste":"藕丁脆爽酸辣利落，泡椒的酸和干辣椒的辣层次分明，卤牛肉酱香浓郁肉质紧实，杂粮粥温润顺滑。",
+     "steps":[
+         {"step":1,"detail":"莲藕去皮切1cm丁，沸水焯1分钟捞出过凉","time":"3分钟","temp":"沸水"},
+         {"step":2,"detail":"小米大米淘洗煮粥30分钟","time":"30分钟","temp":"小火"},
+         {"step":3,"detail":"热油炒香泡椒末和干辣椒段，加藕丁大火翻炒","time":"2分钟","temp":"大火"},
+         {"step":4,"detail":"加醋、生抽、糖快速翻炒均匀出锅；卤牛肉切片摆盘","time":"1分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"莲藕","price":4.0,"quantity":"200g"},{"name":"卤牛肉","price":12.0,"quantity":"80g"},{"name":"小米","price":1.1,"quantity":"30g"},{"name":"大米","price":0.3,"quantity":"30g"}],"img":"dinner.png"},
+     
+    {"name":"丝瓜炒蛋+煎午餐肉+玉米糊","calories":460,"protein":25.2,"carbs":49.5,"price":9.4,"category":"肉类",
+     "intro":"丝瓜炒蛋是夏日清新小炒，丝瓜清热化痰美容养颜，鸡蛋补充优质蛋白，午餐肉增添肉香，玉米糊易消化，是清淡养胃型晚餐。",
+     "taste":"丝瓜滑嫩清甜入口爽滑，鸡蛋蓬松绵软，午餐肉煎至微焦咸香诱人，玉米糊细腻醇厚带天然甜味。",
+     "steps":[
+         {"step":1,"detail":"丝瓜去皮切滚刀块，鸡蛋打散加少许盐","time":"5分钟","temp":"-"},
+         {"step":2,"detail":"玉米面加冷水搅匀，倒入沸水中边倒边搅煮5分钟至稠","time":"8分钟","temp":"中火"},
+         {"step":3,"detail":"热油中火炒鸡蛋至凝固盛出","time":"2分钟","temp":"中火"},
+         {"step":4,"detail":"同锅炒丝瓜至变软出汁，倒回鸡蛋翻炒加盐；午餐肉两面各煎1分钟","time":"3分钟","temp":"中火"}
+     ],
+     "ingredients":[{"name":"丝瓜","price":3.0,"quantity":"1根"},{"name":"鸡蛋","price":2.4,"quantity":"2个"},{"name":"午餐肉","price":3.0,"quantity":"2片"},{"name":"玉米面","price":1.0,"quantity":"50g"}],"img":"dinner.png"},
+     
+    {"name":"口蘑炒芦笋+香煎三文鱼骨+藜麦饭","calories":580,"protein":48.7,"carbs":70.6,"price":32.0,"category":"海鲜类",
+     "intro":"口蘑炒芦笋是西式经典配菜，芦笋富含叶酸和抗氧化物质，三文鱼骨含Omega-3不饱和脂肪酸护心脑，藜麦是全营养完全蛋白谷物。",
+     "taste":"芦笋嫩脆清甜，口蘑鲜美多汁带菌香，三文鱼骨煎至酥脆焦香鱼肉油润，藜麦饭颗粒分明有淡淡坚果味。",
+     "steps":[
+         {"step":1,"detail":"三文鱼骨用盐黑胡椒和柠檬汁腌制10分钟，藜麦淘洗煮15分钟","time":"15分钟","temp":"-"},
+         {"step":2,"detail":"芦笋去老根切段沸水焯1分钟，口蘑切片","time":"3分钟","temp":"沸水"},
+         {"step":3,"detail":"平底锅中火煎三文鱼骨每面4分钟至金黄酥脆","time":"8分钟","temp":"中火"},
+         {"step":4,"detail":"热油炒蒜末和口蘑至出汁，加芦笋大火快炒30秒，加盐黑胡椒","time":"2分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"芦笋","price":5.0,"quantity":"100g"},{"name":"口蘑","price":2.5,"quantity":"80g"},{"name":"三文鱼骨","price":18.0,"quantity":"200g"},{"name":"藜麦","price":6.5,"quantity":"100g"}],"img":"dinner.png"},
+     
+    {"name":"白菜炖粉条豆腐+全麦饼","calories":450,"protein":16.8,"carbs":81.5,"price":8.5,"category":"素食",
+     "intro":"白菜炖粉条豆腐是东北家常炖菜，白菜清甜豆腐嫩滑粉条Q弹，一锅出的温暖素菜，全麦饼替代米饭增加膳食纤维，经济实惠的素食晚餐。",
+     "taste":"白菜炖至透明软甜，豆腐吸饱汤汁嫩滑入味，粉条晶莹弹牙，全麦饼筋道麦香十足蘸汤汁更香。",
+     "steps":[
+         {"step":1,"detail":"大白菜切大片，豆腐切块焯水，粉条温水泡软","time":"15分钟","temp":"温水"},
+         {"step":2,"detail":"热油爆香葱花，加白菜翻炒至软出汁","time":"3分钟","temp":"中火"},
+         {"step":3,"detail":"加500ml水烧开，放入豆腐和粉条","time":"2分钟","temp":"大火"},
+         {"step":4,"detail":"中小火炖10分钟至粉条透明白菜软烂，加盐和生抽调味","time":"10分钟","temp":"中小火"}
+     ],
+     "ingredients":[{"name":"大白菜","price":1.5,"quantity":"200g"},{"name":"粉条","price":1.2,"quantity":"50g"},{"name":"豆腐","price":1.8,"quantity":"150g"},{"name":"全麦饼","price":4.0,"quantity":"2张"}],"img":"dinner.png"},
+     
+    {"name":"洋葱炒肥牛+糙米饭","calories":590,"protein":32.6,"carbs":96.6,"price":21.3,"category":"肉类",
+     "intro":"洋葱炒肥牛是日式牛丼的家常版，肥牛卷快熟方便，洋葱的甜味与肥牛的脂香完美融合，糙米饭低GI提供持久饱腹感。",
+     "taste":"肥牛片薄嫩多汁脂香四溢，洋葱炒至焦糖化释放天然甜味，酱汁甜咸适中裹满米饭，糙米饭嚼劲十足。",
+     "steps":[
+         {"step":1,"detail":"洋葱切丝，糙米提前浸泡30分钟煮熟","time":"35分钟","temp":"-"},
+         {"step":2,"detail":"调酱汁：生抽+味醂（或料酒+糖）+蚝油+水","time":"2分钟","temp":"-"},
+         {"step":3,"detail":"热油中火炒洋葱丝至透明微焦（约3分钟）","time":"3分钟","temp":"中火"},
+         {"step":4,"detail":"加入肥牛卷大火快炒至变色，倒入酱汁翻炒均匀立即出锅","time":"2分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"肥牛卷","price":16.0,"quantity":"150g"},{"name":"洋葱","price":1.0,"quantity":"半个"},{"name":"糙米","price":3.8,"quantity":"120g"},{"name":"生抽蚝油","price":0.5,"quantity":"适量"}],"img":"dinner.png"},
+     
+    {"name":"清炒芥蓝+酱鸭腿+南瓜小米粥","calories":590,"protein":37.2,"carbs":54.7,"price":21.2,"category":"肉类",
+     "intro":"清炒芥蓝是粤菜经典青菜，芥蓝爽脆微苦回甘清热解毒，搭配酱鸭腿和南瓜小米粥，荤素搭配营养均衡，适合秋季滋阴润燥。",
+     "taste":"芥蓝茎脆叶嫩带独特清苦回甘，鸭腿酱香浓郁肉质紧实越嚼越香，南瓜小米粥金黄浓稠甜糯温暖。",
+     "steps":[
+         {"step":1,"detail":"南瓜去皮切丁，小米洗净，加水煮粥25分钟","time":"25分钟","temp":"小火"},
+         {"step":2,"detail":"芥蓝洗净，粗茎去皮切斜段","time":"3分钟","temp":"-"},
+         {"step":3,"detail":"沸水加少许油和盐，芥蓝焯水1分钟捞出","time":"1分钟","temp":"沸水"},
+         {"step":4,"detail":"热油爆香蒜末，加芥蓝大火快炒30秒，加蚝油和盐调味；鸭腿加热即可","time":"1分钟","temp":"大火"}
+     ],
+     "ingredients":[{"name":"鸭腿","price":12.0,"quantity":"1只（约150g）"},{"name":"芥蓝","price":3.0,"quantity":"150g"},{"name":"小米","price":2.2,"quantity":"60g"},{"name":"南瓜","price":4.0,"quantity":"100g"}],"img":"dinner.png"}
+]
